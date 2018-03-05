@@ -1,0 +1,24 @@
+{
+  "name": "gorriecoe/silverstripe-groupbycount",
+  "description": "Grouped list by specified numeric amount",
+  "type": "silverstripe-vendormodule",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Gorrie Coe",
+      "email": "gorriecoe@gmail.com"
+    }
+  ],
+  "keywords": [
+    "silverstripe",
+    "group",
+    "list"
+  ],
+  "homepage": "http://github.com/gorriecoe/silverstripe-groupbycount",
+  "require": {
+    "silverstripe/cms": "^4.0"
+  },
+  "extra": {
+    "installer-name": "groupbycount"
+  }
+}

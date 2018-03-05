@@ -1,0 +1,9 @@
+---
+Name: groupbycount
+---
+SilverStripe\ORM\ArrayList:
+  extensions:
+    - gorriecoe\GroupByCount\GroupByCountExtension
+SilverStripe\ORM\DataList:
+  extensions:
+    - gorriecoe\GroupByCount\GroupByCountExtension
