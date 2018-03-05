@@ -180,16 +180,3 @@ Output
 
 ## Count vs MaxCount
 Within each group is `$MaxCount` which returns the defined count for that group.  This is different from `$Count` which returns the actual count for that group.
-```
-<% if Links %>
-    <% loop Links.GroupByCount(2,3,1) %>
-        <ul>
-            <% loop Items %>
-                <li>
-                    <a href="$Link">$Title</a>
-                </li>
-            <% end_loop %>
-        </ul>
-    <% end_loop %>
-<% end_if %>
-```
