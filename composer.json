@@ -16,7 +16,7 @@
   ],
   "homepage": "http://github.com/gorriecoe/silverstripe-groupbycount",
   "require": {
-    "silverstripe/cms": "^4.0"
+    "silverstripe/framework": "^4.0"
   },
   "extra": {
     "installer-name": "groupbycount"
